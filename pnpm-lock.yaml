@@ -7,6 +7,7 @@ specifiers:
   '@types/react': 18.0.17
   '@types/react-dom': 18.0.6
   caniuse-lite: ^1.0.30001378
+  cross-env: ^7.0.3
   eslint: 8.22.0
   eslint-config-next: 12.2.5
   husky: ^8.0.1
@@ -28,6 +29,7 @@ devDependencies:
   '@types/node': 18.7.6
   '@types/react': 18.0.17
   '@types/react-dom': 18.0.6
+  cross-env: 7.0.3
   eslint: 8.22.0
   eslint-config-next: 12.2.5_4rv7y5c6xz3vfxwhbrcxxi73bq
   husky: 8.0.1
@@ -876,6 +878,14 @@ packages:
 
   /create-require/1.1.1:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
+    dev: true
+
+  /cross-env/7.0.3:
+    resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==}
+    engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
+    hasBin: true
+    dependencies:
+      cross-spawn: 7.0.3
     dev: true
 
   /cross-spawn/7.0.3:
